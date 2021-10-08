@@ -1,0 +1,67 @@
+<!DOCTYPE html
+   PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<title>Jana's Jewels</title>
+</head>
+<body>
+<center><font face="Broadway" color="#590d8e" size="+2">Order Form</font></center>
+
+<!--Put form method statement here -->
+<form method="post" action="mailto: janasjewels@isp.com">
+<p><b><font color="#590d8e">
+If you would like to order any jewelry from the 
+Jana's Jewels Web site, please make your selection 
+below and e-mail your order to Jana at 
+<a href="mailto:janasjewels@isp.com">janasjewels@isp.com</a>.</font></b></p>
+
+<fieldset>
+Last Name:<input name="lastname" type="text" size="25" />
+First Name:<input name="firstname" type="text" size="25" />
+<br />Street Address:<input name="address" type="text" size="25" />
+<br />City:<input name="city" type="text" size="25" />
+State:<input name="state" type="text" size="25" />
+ZIP:<input name="zip" type="text" size="25" />
+E-mail Address:<input name="email" type="text" size="25" />
+</fieldset>
+
+<fieldset>
+Select the type of jewelry that you are interested in purchasing: 
+<br /><input name="pictype" type="checkbox" value="necklaces"/> Necklaces
+<input name="pictype" type="checkbox" value="bracelets" /> Bracelets
+<input name="pictype" type="checkbox" value="watches" /> Watches
+
+
+<p>Credit card type:
+   <select name="payment">
+      <option>Visa</option>
+      <option>MasterCard</option>
+      <option>American Express</option>
+      <option>Discover</option>
+   </select> 
+Credit card number:
+<input name="cardnum" type="text" size="20" maxlength="20" />
+Expiration date:
+<input name="cardexp" type="text" size="4" maxlength="4"></p>
+</fieldset>
+
+<br/> <fieldset> <legend align="right">Additional Comments</legend>
+Would you like to receive our e-mail newsletter? 
+<input name="newsletter" type="radio" value="yes" />Yes
+<input name="newsletter" type="radio" value="no" /> No
+<p>What other types of jewelry, in addition to those shown, would you be 
+interested in purchasing?
+<br/><textarea name="other"  rows="3"  cols="100"></textarea></p>
+</fieldset>
+
+<p><input type="submit"value="Submit" />
+<input type="reset" value="Reset" /></p>
+
+<p>Thank you for your order.
+<br /><b><font color="#590d8e">Jana's Jewels</font></b></p>
+</form>
+</body>
+</html>
